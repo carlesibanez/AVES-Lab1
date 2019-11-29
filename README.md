@@ -28,7 +28,11 @@ looks much more blurry, whereas the original keeps its sharpness.
 
 Original image: 
 
+![](/examples/lenna.png)
+
 Resized image: 
+
+![](/examples/lenna128.png =512x512)
 
 ## Exercise 3a
 This exercises consists on creating a script that reads a matrix, or an image, in a serpentine way.
