@@ -5,6 +5,8 @@ This is the first lab from the sibject of Audio and video encoding systems. The 
 This first exercise consists on writing a python script capable of translating 3 RGB values into YUV values and
 vice versa. The transformation used in this part is the one defined in the [HDTV BT.709 standard.](https://en.wikipedia.org/wiki/YUV#HDTV_with_BT.709)
 
+### Execution
+>>>>>>> Lab 1
 In order to run this exercise, the user must pass 4 arguments: the mode (from what to what to translate the values), and the 3 corresponding input values.
 
 Some examples:
