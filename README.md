@@ -28,11 +28,11 @@ looks much more blurry, whereas the original keeps its sharpness.
 
 Original image: 
 
-![](/examples/lenna.png)
+<img src="/examples/lenna.png" width="256" height="256">
 
 Resized image: 
 
-![](/examples/lenna128.png =512x512)
+<img src="/examples/lenna128.png" width="256" height="256">
 
 ## Exercise 3a
 This exercises consists on creating a script that reads a matrix, or an image, in a serpentine way.
@@ -45,7 +45,7 @@ For the other mode, for example using the lenna image from the previous exercise
 `python3 app/serpentine.py examples/lenna.png`
 
 ## Exercise 3b
-In this exercise we need to use ffmpeg in order to transform an image top b/w.
+In this exercise we need to use ffmpeg in order to transform an image to b/w.
 
 For example, to transform the lenna image to b/w it can be done by running in the terminal: 
 `ffmpeg -i examples/lenna.png -vf hue=s=0 -c:a copy examples/lennabw.png`
@@ -58,7 +58,11 @@ Regarding the results, we can see that there is no noticeable difference, which 
 
 Black and white photo with maximum compression (default): 
 
+<img src="/examples/lennabw.png" width="256" height="256">
+
 Black and white photo with minimum compression:
+
+<img src="/examples/lennabw0.png" width="256" height="256">
 
 ## Exercise 4
 This last exercise aims to create a script capable of applying run-length encoding to a given sequence. For the sake
